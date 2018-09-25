@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="歌词修正"
+        android:id="@+id/fix_lrc"
+        />
+
+    <item
+        android:title="歌词大小"
+        android:id="@+id/lrc_size"
+        />
+
+    <item
+        android:title="关闭翻译歌词"
+        android:id="@+id/close_fan"
+        />
+
+
+</menu>

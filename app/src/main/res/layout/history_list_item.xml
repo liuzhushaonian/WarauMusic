@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/music_list_space"
+    android:paddingEnd="@dimen/default_space"
+    android:paddingStart="@dimen/default_space"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/press_space"
+        android:layout_height="@dimen/press_space"
+        android:src="@drawable/ic_update_black_24dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/item_icon"
+        android:scaleType="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="@dimen/default_space"
+        android:id="@+id/history_item"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/press_space"
+        android:layout_height="@dimen/press_space"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/round_clear_24px"
+        android:scaleType="center"
+        android:id="@+id/history_clear"
+        />
+
+
+</LinearLayout>

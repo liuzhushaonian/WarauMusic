@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AlbumPagerFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/album_pager"
+        android:contentDescription="@string/album"
+        android:scaleType="center"
+        android:background="@color/colorTeal"
+        android:src="@drawable/ic_music_note_black_150dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lrc_view"
+        android:visibility="gone"
+        >
+
+        <com.app.legend.waraumusic.utils.LrcRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lrc_list"
+            android:background="@color/colorLrcBg"
+            >
+
+
+
+        </com.app.legend.waraumusic.utils.LrcRecyclerView>
+
+
+        <LinearLayout
+            android:id="@+id/center_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/lrc_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/lrc_playing_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                android:tint="@color/colorGrey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorGrey" />
+
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/text_size_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/default_space"
+            android:layout_marginEnd="@dimen/default_space"
+            android:layout_marginStart="@dimen/default_space"
+            android:background="@color/colorWhite"
+            android:max="100"
+            android:padding="@dimen/default_space"
+            android:progressTint="@color/colorExpand"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/null_lrc_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="该歌曲没有歌词~"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|top"
+            android:src="@drawable/round_games_24px"
+            android:scaleType="center"
+            android:layout_margin="@dimen/half_de"
+            android:id="@+id/lrc_controller"
+            />
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/string_open"
+        android:id="@+id/open_album"
+        />
+    <item
+        android:title="@string/string_play_album"
+        android:id="@+id/play_album"
+        />
+    <!--<item-->
+        <!--android:title="@string/string_set_list"-->
+        <!--android:id="@+id/set_list"-->
+        <!--/>-->
+    <item
+        android:title="@string/string_add_to_list"
+        android:id="@+id/add_list"
+        />
+    <item
+        android:title="@string/string_save_book"
+        android:id="@+id/save_album_book"
+        />
+    <!--<item-->
+        <!--android:title="@string/string_delete"-->
+        <!--android:id="@+id/album_delete"-->
+        <!--/>-->
+</menu>

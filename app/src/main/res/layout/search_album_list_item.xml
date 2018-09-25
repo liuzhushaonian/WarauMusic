@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/music_list_space"
+    android:paddingEnd="@dimen/default_space"
+    android:paddingStart="@dimen/default_space"
+    android:paddingTop="@dimen/av_space"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="@dimen/press_space"
+        android:layout_height="@dimen/press_space"
+        android:id="@+id/search_album_list_book"
+        android:src="@drawable/ic_music_note_black_24dp"
+        android:scaleType="center"
+        android:background="@color/colorGrey"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/search_album_list_book"
+        android:layout_marginBottom="@dimen/av_space"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/default_space"
+        android:paddingEnd="@dimen/default_space"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_album_list_song_name"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_album_list_info"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+        <!--android:layout_width="@dimen/press_space"-->
+        <!--android:layout_height="@dimen/press_space"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:id="@+id/search_album_list_button"-->
+        <!--android:src="@drawable/ic_more_vert_black_16dp"-->
+        <!--android:scaleType="center"-->
+        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+        <!--android:clickable="true"-->
+        <!--/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGrey"
+        />
+
+
+
+</RelativeLayout>

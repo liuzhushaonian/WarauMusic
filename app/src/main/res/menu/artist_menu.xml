@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/string_open"
+        android:id="@+id/artist_open"
+        />
+
+    <item
+        android:title="@string/string_play_artist"
+        android:id="@+id/artist_play"
+        />
+
+    <item
+        android:title="@string/add_to_playing_list"
+        android:id="@+id/artist_add_to_list"
+        />
+
+    <!--<item-->
+        <!--android:title="@string/string_delete"-->
+        <!--android:id="@+id/artist_delete"-->
+        <!--/>-->
+
+</menu>

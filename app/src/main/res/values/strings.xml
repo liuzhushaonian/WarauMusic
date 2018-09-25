@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">JustMusic</string>
+
+
+    <string name="change_color">换肤</string>
+
+    <string name="others">其他</string>
+
+    <string name="setting">设置</string>
+
+    <string name="about_developer">关于开发者</string>
+    <string name="about_app">关于</string>
+
+    <string name="exit">退出</string>
+
+    <string name="clean_cache">清理缓存</string>
+
+    <string name="scane_music">扫描歌曲</string>
+
+    <string name="upgrade">检查更新</string>
+    <string name="song">song</string>
+    <string name="info">info</string>
+    <string name="music_text">啊啦，乐库是空的~</string>
+    <string name="permission_info">啊啦，没获得权限~</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="music">音乐</string>
+    <string name="album">专辑</string>
+    <string name="artist">歌手</string>
+    <string name="list">列表</string>
+    <string name="search">搜索</string>
+
+    <string name="play">播放</string>
+    <string name="add_to_playing_list">添加到播放列表</string>
+    <string name="set_as_ring">设置为铃声</string>
+    <string name="next_play">设为下一曲播放</string>
+    <string name="see_artist">查看同歌手更多歌曲</string>
+    <string name="see_album">查看同专辑更多歌曲</string>
+    <string name="string_open">打开</string>
+    <string name="string_play_album">播放专辑</string>
+    <string name="string_set_list">设置为播放列表</string>
+    <string name="string_add_to_list">全部添加到列表…</string>
+    <string name="string_save_book">保存封面</string>
+    <string name="string_delete">删除</string>
+
+    <string name="string_save_success">保存成功~</string>
+    <string name="string_save_fail">该图片无法保存</string>
+
+    <string name="string_play_artist">播放全部音乐</string>
+
+    <string name="string_queue">排序方式</string>
+
+    <string name="string_new_list">新建列表</string>
+    <string name="string_rename">重命名</string>
+
+    <string name="string_play_all">全部播放</string>
+
+    <string name="string_no_search_info">没找到任何相关信息呢= =换一种姿势试试</string>
+
+    <string name="string_playing_list">播放列表</string>
+
+    <string name="string_used">使用中</string>
+
+    <string name="time">0.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="trans_string">trans</string>
+
+    <string name="list_infos">暂时还没有播放列表，新建一个吧~</string>
+
+    <string name="about_content">
+        鬼才知道我经历了什么\n\n
+        我指的是在做这个APP的时候\n\n
+        遇到了实习\n\n
+        迫不得已将其作为实习作品了\n\n
+
+
+    </string>
+
+    <string name="get_all">一键图词</string>
+
+    <string name="tu_content">一键图词资源均为网络资源，本人并未收集过任何资源，本人不对任何资源的准确性以及可使用性负责。</string>
+
+</resources>
